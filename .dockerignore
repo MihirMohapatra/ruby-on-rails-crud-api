@@ -1,0 +1,10 @@
+.git
+.bundle
+log/*
+tmp/*
+storage/*
+postgres-data
+vendor/bundle
+.env
+.env.*
+!.env.example

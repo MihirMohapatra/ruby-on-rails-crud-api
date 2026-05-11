@@ -29,10 +29,13 @@ docker compose up
 
 The API will be available at `http://localhost:3000`.
 
+Open `http://localhost:3000` in a browser to use the product manager UI.
+
 ## Endpoints
 
 | Method | Path | Description |
 | --- | --- | --- |
+| `GET` | `/` | Product manager UI |
 | `GET` | `/products` | List products |
 | `GET` | `/products/:id` | Show a product |
 | `POST` | `/products` | Create a product |

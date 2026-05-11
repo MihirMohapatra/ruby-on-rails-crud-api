@@ -31,6 +31,10 @@ The API will be available at `http://localhost:3000`.
 
 Open `http://localhost:3000` in a browser to use the product manager UI.
 
+## UI Preview
+
+![Product manager UI](docs/ui-screenshot.png)
+
 ## Endpoints
 
 | Method | Path | Description |

@@ -88,6 +88,15 @@ The Docker Compose setup provides sensible development defaults:
 | `DATABASE_PASSWORD` | `postgres` | Postgres password |
 | `RAILS_ENV` | `development` | Rails environment |
 
+For production hosting, set:
+
+| Variable | Purpose |
+| --- | --- |
+| `RAILS_ENV` | Set to `production` |
+| `DATABASE_URL` | Hosted PostgreSQL connection string |
+| `SECRET_KEY_BASE` | Rails production secret |
+| `RAILS_SERVE_STATIC_FILES` | Set to `true` |
+
 ## Useful Commands
 
 Run migrations:
